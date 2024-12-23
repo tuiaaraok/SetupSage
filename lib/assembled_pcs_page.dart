@@ -111,7 +111,7 @@ class _AssembledPcsPageState extends State<AssembledPcsPage> {
                                     padding: EdgeInsets.only(bottom: 11.h),
                                     child: Text(
                                       // ignore: unnecessary_brace_in_string_interps
-                                      "${name}: ${box.getAt(i)!.component[name]!.componentTypeController}",
+                                      "${name}: ${box.getAt(i)!.component[name]!.name}",
                                       style: TextStyle(
                                           fontSize: 18.sp,
                                           fontWeight: FontWeight.w400),

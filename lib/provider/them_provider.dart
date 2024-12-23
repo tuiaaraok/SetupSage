@@ -33,6 +33,6 @@ class ThemeProvider extends ChangeNotifier {
   Color get switchLightColor =>
       _isDarkMode ? const Color.fromARGB(255, 189, 189, 189) : Colors.black;
   Color get textFieldForm => _isDarkMode
-      ? const Color(0xFF797979).withOpacity(0.6)
-      : Colors.white.withOpacity(0.6);
+      ? const Color(0xFF797979).withValues(alpha: 0.6)
+      : Colors.white.withValues(alpha: 0.6);
 }
